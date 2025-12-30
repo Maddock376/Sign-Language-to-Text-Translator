@@ -68,7 +68,7 @@ The predicted text will be displayed on screen in real time.
 Supports a limited number of gesture classes
 Performance depends on lighting conditions and camera quality
 
-#Author
+### Author
 
 Joshua Christopher
 Computer Engineering Graduate | Software & AI Enthusiast
