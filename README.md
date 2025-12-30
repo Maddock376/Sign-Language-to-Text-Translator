@@ -48,7 +48,8 @@ Output: Softmax classification over predefined sign classes
 Framework: TensorFlow (Keras API)
 
 #Installation
-```git clone https://github.com/your-username/sign-language-to-text-translator.git
+```
+git clone https://github.com/your-username/sign-language-to-text-translator.git
 cd sign-language-to-text-translator
 pip install -r requirements.txt 
 ```
@@ -56,7 +57,8 @@ pip install -r requirements.txt
 
 Ensure a webcam is connected.
 Run the application:
-```python app.py
+```
+python app.py
 ```
 Perform supported sign language gestures in front of the camera.
 The predicted text will be displayed on screen in real time.
