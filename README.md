@@ -55,8 +55,8 @@ pip install -r requirements.txt
 ```
 #Usage
 
-Ensure a webcam is connected.
-Run the application:
+1. Ensure a webcam is connected.
+2. Run the application:
 ```
 python app.py
 ```
