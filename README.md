@@ -3,7 +3,7 @@ Real-time sign language to text translation using MediaPipe keypoints and an CNN
 
 The application leverages MediaPipe for hand keypoint extraction and a TensorFlow LSTM model for temporal gesture classification.
 
-#Features
+# Features
 
  - Real-time sign language recognition from live video input
  - Hand keypoint extraction using MediaPipe
@@ -11,7 +11,7 @@ The application leverages MediaPipe for hand keypoint extraction and a TensorFlo
  - Modular design for easy dataset expansion and retraining
  - Live on-screen text output
 
-#Technologies Used
+# Technologies Used
 
  - Python
  - OpenCV – video capture and frame processing
@@ -19,7 +19,7 @@ The application leverages MediaPipe for hand keypoint extraction and a TensorFlo
  - TensorFlow / Keras – LSTM-based deep learning model
  - NumPy – data handling and preprocessing
 
-#System Architecture
+# System Architecture
 
 1. Video Capture
 Live video is captured from a webcam using OpenCV.
@@ -32,7 +32,7 @@ An LSTM model processes the sequences to predict the corresponding sign.
 5. Text Output
 The predicted sign is displayed as text in real time.
 
-#Dataset
+# Dataset
 
  - Gesture data is stored as NumPy (.npy) files.
  - Each gesture consists of multiple sequences.
@@ -40,20 +40,20 @@ The predicted sign is displayed as text in real time.
  - The dataset was manually created to ensure consistency and accuracy.
 Note: The system is currently trained on a limited number of gesture classes for performance and training efficiency.
 
-#Model Details
+# Model Details
 
 Architecture: Multi-layer LSTM with fully connected dense layers
 Input: Sequences of hand keypoints
 Output: Softmax classification over predefined sign classes
 Framework: TensorFlow (Keras API)
 
-#Installation
+# Installation
 ```
 git clone https://github.com/your-username/sign-language-to-text-translator.git
 cd sign-language-to-text-translator
 pip install -r requirements.txt 
 ```
-#Usage
+# Usage
 
 1. Ensure a webcam is connected.
 2. Run the application:
@@ -63,7 +63,7 @@ python app.py
 Perform supported sign language gestures in front of the camera.
 The predicted text will be displayed on screen in real time.
 
-#Limitations
+# Limitations
 
 Supports a limited number of gesture classes
 Performance depends on lighting conditions and camera quality
